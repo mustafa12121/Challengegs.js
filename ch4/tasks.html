@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn JavaScript</title>
+  </head>
+  <style>
+    :root {
+      --main-radius: 7px;
+    }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      text-transform: capitalize;
+    }
+    .conconteainer {
+      padding: 10px 50px;
+    }
+    form {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 20px;
+      background-color: #eee;
+      border-radius: var(--main-radius);
+      margin: 100px auto 0;
+      gap: 20px;
+      width: 500px;
+    }
+    .botton {
+      padding: 10px 15px;
+      background-color: #009688;
+      color: white;
+      border-radius: var(--main-radius);
+      border: none;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    form input#task {
+      border: none;
+      border-radius: var(--main-radius);
+      flex: 1;
+    }
+    form input#task:focus {
+      outline: none;
+    }
+    .show {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 20px;
+      background-color: #eee;
+      border-radius: var(--main-radius);
+      margin: 20px auto;
+      min-height: 20px;
+      width: 500px;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .show div {
+      gap: 20px;
+      display: flex;
+      padding: 15px;
+      flex: 1;
+      align-items: center;
+      justify-content: space-between;
+      background-color: white;
+      border-radius: var(--main-radius);
+    }
+    .show div span {
+      padding: 5px 10px;
+      background-color: rgb(255, 50, 50);
+    }
+  </style>
+  <body>
+    <div class="conteainer">
+      <form action="">
+        <input type="text" name="element" id="task" />
+        <input type="submit" value="add task" class="botton" />
+      </form>
+      <div class="show"></div>
+      <script src="tasks.js"></script>
+    </div>
+  </body>
+</html>

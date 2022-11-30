@@ -1,0 +1,96 @@
+input:focus {
+  outline: none;
+}
+
+.container * {
+  border-radius: 7px;
+  text-align: center;
+}
+.container {
+  text-transform: capitalize;
+  border-radius: 7px;
+  background-color: #eee;
+  padding: 15px 20px;
+  width: 300px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  border: 2px solid #009655;
+  box-shadow: 9px 20px 30px -12px #00000052;
+}
+
+.container label {
+  font-size: 1.3rem;
+  color: #777;
+}
+.container .fonts {
+  background: white;
+  padding: 10px 15px;
+  flex: 1;
+  width: 200px;
+}
+.container select {
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+.container select:focus {
+  outline: none;
+}
+.container .colors {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: white;
+}
+.container .colors span {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  opacity: 0.4;
+}
+.container .colors span:nth-of-type(1) {
+  background-color: #4caf50;
+}
+.container .colors span:nth-of-type(2) {
+  background-color: #ffc107;
+}
+.container .colors span:nth-of-type(3) {
+  background-color: #8bc34a;
+}
+.container .colors span:nth-of-type(4) {
+  background-color: #07cdba;
+}
+.container .colors span:nth-of-type(5) {
+  background-color: #e9584d;
+}
+.container .colors span:nth-of-type(6) {
+  background-color: #9c73e5;
+}
+.container .colors span.active {
+  opacity: 1;
+}
+.container .font-size {
+  padding: 10px 15px;
+  background-color: white;
+  width: 200px;
+}
+.container .font-size input {
+  border: none;
+  width: 100%;
+}
+.container .resulet {
+  padding: 15px 20px;
+  width: 75%;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: teko;
+  color: #4caf50;
+  font-size: 16px;
+}

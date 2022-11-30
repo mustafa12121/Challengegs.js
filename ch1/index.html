@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn JavaScript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;800;900&family=Fasthand&family=Open+Sans:wght@400;500;600;700;800&family=Teko:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <style>
+      /* 
+            font-family: "Teko", sans-serif;
+            font-family: "Cairo", sans-serif    
+            font-family: "Fasthand", cursive;
+            font-family: "Open Sans", sans-serif;
+            */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <label for="font">font family</label>
+      <div class="fonts">
+        <select name="font" id="font" class="fonts-select">
+          <option value="Teko">Teko</option>
+          <option value="Cairo">Cairo</option>
+          <option value="Fasthand">Fasthand</option>
+          <option value="Open Sans">Open Sans</option>
+        </select>
+      </div>
+      <label>font color</label>
+      <div class="colors">
+        <span data-color="#4CAF50" class="active"></span>
+        <span data-color="#FFC107"></span>
+        <span data-color="#8BC34A"></span>
+        <span data-color="#07cdba"></span>
+        <span data-color="#e9584d"></span>
+        <span data-color="#9c73e5"></span>
+      </div>
+      <label>font size</label>
+      <div class="font-size">
+        <input type="number" name="font-size" id="size" min="16" max="30" />
+      </div>
+      <div class="resulet">setting testing</div>
+    </div>
+    <script src="setting.js"></script>
+  </body>
+</html>

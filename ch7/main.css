@@ -1,0 +1,62 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 20px 20px;
+  margin: 100px auto;
+  width: 400px;
+  background-color: #eee;
+  box-shadow: -17px 1px 27px 0px #eee inset, 17px 1px 27px 0px #eee inset,
+    10px 10px 30px -10px #c1bfbf, -49px 1px 15px 0px inset white,
+    49px 1px 15px 0px inset white;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+form div {
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  color: #0096bb;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: system-ui;
+  gap: 20px;
+}
+
+form div input {
+  flex: 1;
+  border: 1px solid #009666;
+  max-width: 55%;
+  padding: 10px 15px;
+  border-radius: 7px;
+}
+form div input:focus {
+  outline: none;
+}
+form div.selec {
+  justify-content: center;
+}
+form div select {
+  border: none;
+  width: 100%;
+  font-size: 1.3rem;
+  color: #0096bb;
+}
+form div select:focus {
+  outline: none;
+}
+form .sub {
+  padding: 10px;
+  color: #fff;
+  border: none;
+  font-size: 1.3rem;
+  background-color: #0096bb;
+  cursor: pointer;
+}
